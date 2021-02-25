@@ -1,6 +1,7 @@
 # scratch3.0_html5
 An HTML5 version of Scratch3.0 Editor, which based on the official Node.js edition ( https://github.com/LLK/scratch-www ).
-
+Just download all the files, and browse the file ./editor/Scratch3.0.html in any webpage browsers which support HTML5, and in any operating systems.
+NO Internet Explorer.
 
 Scratch3.0(HTML5)学习平台
 
