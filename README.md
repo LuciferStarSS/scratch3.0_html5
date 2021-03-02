@@ -3,6 +3,8 @@ An HTML5 version of Scratch3.0 Editor, which based on the official Node.js editi
 Just download all the files, and browse the file ./editor/Scratch3.0.html in any webpage browsers which support HTML5, and in any operating systems.
 NO Internet Explorer.
 
+IT WORKS WELL ON MY CHROMEBOOK!
+
 Scratch3.0(HTML5)学习平台
 
 本程序基于MIT开源的scratch-www项目，经修改而来。其中，所有图片和声音资源，版权都属于Scratch官方，而程序，则遵循scratch-www原有的开源协议。
