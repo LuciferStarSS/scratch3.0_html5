@@ -28,3 +28,12 @@ Scratch3.0(HTML5)学习平台
 “./editor/js/projects.bundle.js”官方是15MB多点，我这个，有95MB，因为把所有图片和声音，都内置了。
 这样处理，坏处就是文件太大，而好处，就是不需要架设服务器，直接用浏览器打开“./editor/Scratch3.0.html”，就可以用了。
 安卓、iOS，手机、平板，安逸。
+
+
+刚搞定了文字朗读模块，浏览器又突然禁止上传25MB以上的文件，所以就不更了，关键信息在这里：
+var path = \"\".concat(SERVER_HOST, \"/synth\");\n      path += \"?locale=\".concat(locale);\n      path += \"&gender=\".concat(gender);\n      path += \"&text=\".concat(encodeURIComponent(words.substring(0, 128))); // Perform HTTP request to get audio file\n      
+
+var path = \"http://www.singlestudio.net.cn/scratch3/editor/gettts.php\";\n      path += \"?lan=zh&spd=5&source=web\";\n      path += \"&gender=\".concat(gender);\n      path += \"&text=\".concat(encodeURIComponent(words.substring(0, 128)));\n
+
+自行在“./editor/js/projects.bundle.js”里搜索并替换吧。
+由于使用了百度翻译的资源，所以，该功能随时可能会被关闭。
