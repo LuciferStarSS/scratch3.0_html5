@@ -47,4 +47,4 @@ path += \"&text=\".concat(encodeURIComponent(words.substring(0, 128)));\n
 自行在“./editor/js/projects.bundle.js”里搜索并替换吧。
 由于使用了百度翻译的资源，所以，该功能随时可能会被关闭。
 
-后续主要致力于scratch3.0_for_class （https://github.com/LuciferStarSS/Scratch3.0_for_class）的维护。
+后续主要致力于scratch3.0_for_class （https://github.com/LuciferStarSS/Scratch3.0_for_class） 的维护。
