@@ -31,12 +31,14 @@ Scratch3.0(HTML5)学习平台
 
 
 刚搞定了文字朗读模块，浏览器又突然禁止上传25MB以上的文件，所以就不更了，关键信息在这里：
+
 var path = \"\".concat(SERVER_HOST, \"/synth\");\n      
 path += \"?locale=\".concat(locale);\n      
 path += \"&gender=\".concat(gender);\n     
 path += \"&text=\".concat(encodeURIComponent(words.substring(0, 128)));  
 
 改为：
+
 var path = \"http://www.singlestudio.net.cn/scratch3/editor/gettts.php\";\n      
 path += \"?lan=zh&spd=5&source=web\";\n      
 path += \"&gender=\".concat(gender);\n      
@@ -45,4 +47,4 @@ path += \"&text=\".concat(encodeURIComponent(words.substring(0, 128)));\n
 自行在“./editor/js/projects.bundle.js”里搜索并替换吧。
 由于使用了百度翻译的资源，所以，该功能随时可能会被关闭。
 
-后续主要致力于scratch3.0_for_class的维护。
+后续主要致力于scratch3.0_for_class （https://github.com/LuciferStarSS/Scratch3.0_for_class）的维护。
